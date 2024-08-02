@@ -7,16 +7,15 @@
 #wrapper {
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: auto;
     perspective: 10px;
 }
 
 .main {
     position: relative;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     transform-style : preserve-3d;
     z-index: -1;
 }
@@ -31,10 +30,10 @@
 
 .background, .foreground {
     position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover;
+    z-index: -1;
 }
 
 h1 {
@@ -45,4 +44,33 @@ h1 {
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-family: "Poppins", sans-serif;
+}
+
+section {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding : 5rem 0;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+  }
+
+.secHeading {
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.bg1 {
+    background-image: url(/assets/Adventure-1.jpg);
+}
+
+.bg2 {
+    background-image: url(/assets/Adventure-2.jpg);
+}
+
+.bg3 {
+    background-image: url(/assets/Adventure-3.jpg);
 }
