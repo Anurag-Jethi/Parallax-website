@@ -63,6 +63,27 @@ section {
     padding: 0 10rem;
 }
 
+.bg {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.desc {
+    font-size: 3.5rem;
+    font-weight: 600;
+    position : absolute;
+    background-color: white;
+    color: black;
+    padding: 0 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .bg1 {
     background-image: url(/assets/Adventure-1.jpg);
 }
