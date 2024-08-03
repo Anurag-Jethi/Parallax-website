@@ -25,7 +25,8 @@ This project is a parallax website created using HTML and CSS. The parallax scro
 
 3. Open `index.html` in your web browser to view the website.
 
-
+## Screenshots:
+![Screenshot](/assets/Parallax%20Website.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
